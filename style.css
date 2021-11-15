@@ -1,0 +1,203 @@
+/* header{
+    background-color: #EEEEEE;
+    padding-right: 300px;
+    display: flex;
+}
+
+.container{
+    padding-left: 300px;
+    padding-top: 200px;
+    padding-right: 50px;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1em;
+  font-weight: small;
+  margin-right: auto;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #1597E5;
+}
+
+.btn-primary:hover {
+  background: #09c0ee;
+  transition: background 0.3s ease-in-out;
+}
+.showcase-area {
+  height: 80vh;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.144),
+      rgba(255, 255, 255, 0.336)
+    ),
+    url("/images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-top: 8%;
+  padding-right: 50%;
+  align-items: left;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+.row{
+    display: flex;
+    padding-left: 20%;
+    
+}
+
+.content{
+    padding-top: 8%;
+    padding-left: 10px;;
+    padding-right: 25%;
+}
+
+.line{
+    padding: 1%;
+}
+
+.row-2{
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content-2{
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 50px;
+}
+
+.trusted{
+    background: #f3f3f3;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 3rem;
+}
+
+#menu li{
+    display: inline;
+    margin: 10px;
+    background: #dfd7d7;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+.customer{
+    background: #f3f3f3;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#star-menu ul{
+    list-style: none;
+}
+
+#star-menu li{
+    display: inline;
+    font-size: 1rem;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+.benefits-box .benefits-text {
+  margin: 1rem 0;
+  color: #444;
+}
+
+.benefits-box {
+  text-align: left;
+  padding: 1rem;
+  
+}
+
+.image--cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    object-fit: cover;
+    object-position: center right;
+  }
+
+footer{
+  text-align: center;
+  font-size: 1rem;
+  padding: 3rem;
+  font-weight: 500;
+  color: #fff;
+  background: rgb(65, 65, 65);
+}
+
+footer p{
+    font-size:15px;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 65%;
+  }
+
+
+  .benefits-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .showcase-area {
+    height: 50vmax;
+  }
+}
+}
